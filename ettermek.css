@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+        background-image: url("hatter.jpeg");
+        background-size: cover;
+}
+
+.container{
+    background-color: white;
+    height: 100vh;
+    margin: 0% 15% 0 15%
+}
+
+.gomb img{
+    position: absolute;
+    z-index: 2;
+    width: 5%;
+    padding: 5px;
+    background-color: grey;
+    border: 3px solid black;
+    border-radius: 16px;
+}
+
+.gomb:hover{
+    background-color: lightgray;
+}
+
+
+h1{
+    padding: 3%;
+    font-size: 50px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+h2{
+    font-size: 40px;
+}
+
+main{
+    padding-left: 2%;
+}
+
+p{
+    font-size: 20px;
+}
+
+main img{
+    margin-top: 2%;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 16px;
+}
