@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("hatter.jpeg");
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+}
+header{
+   background-color: black;
+}
+img{
+    height: 150px;
+}
+h2{
+    color: white;
+}
+button{
+    background-color: w;
+    height: 100px;
+    width: fit-content,150px;
+}
+.jobbra{
+    float: right;
+}
