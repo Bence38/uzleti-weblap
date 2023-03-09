@@ -14,7 +14,7 @@ h1{
 header{
    background-color: black;
 }
-img{
+ main img{
     height: 150px;
 }
 h2{
@@ -29,4 +29,20 @@ button{
     float: right;
     padding: 80px;
     width: 33.33%;
+}
+
+
+.gomb img{
+    margin-top: 5px;
+    position: absolute;
+    z-index: 2;
+    width: 5%;
+    padding: 5px;
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 16px;
+}
+
+.gomb img:hover{
+    background-color: lightgray;
 }

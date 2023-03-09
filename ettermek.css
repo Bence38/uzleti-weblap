@@ -15,16 +15,17 @@ body{
 }
 
 .gomb img{
+    margin-top: 5px;
     position: absolute;
     z-index: 2;
     width: 5%;
     padding: 5px;
-    background-color: grey;
+    background-color: gray;
     border: 3px solid black;
     border-radius: 16px;
 }
 
-.gomb:hover{
+.gomb img:hover{
     background-color: lightgray;
 }
 
