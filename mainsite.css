@@ -27,4 +27,6 @@ button{
 }
 .jobbra{
     float: right;
+    padding: 80px;
+    width: 33.33%;
 }
